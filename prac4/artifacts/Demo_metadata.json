@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"prac4/if_else_if_statements.sol": "Demo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"prac4/if_else_if_statements.sol": {
+			"keccak256": "0x15ca8e53fffe3c95de3a0cfb03e9e6bb2322917d429436bf2fe4e9c44aee646d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://58d4e427bffe05a375bd91f3c724bfde59cd03cb1db773f1efdb2c1744536663",
+				"dweb:/ipfs/QmeaGjmBneRgjwZyQJ8LFjGdaaRhhqiEFNhGFSiKvQWJai"
+			]
+		}
+	},
+	"version": 1
+}
