@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "cv",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Prac8/visibility.sol": "c"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Prac8/visibility.sol": {
+			"keccak256": "0xf8bb3e20b1581101b856f45358397b7e4e78fa6d8af9350b2e891534903cdf18",
+			"urls": [
+				"bzz-raw://bf2c31e8e212ddac07307ebdd2b3d8c8aa634ffec66de03c2a007c77743c8ee7",
+				"dweb:/ipfs/QmTZ24UoCNt9KZVxuKjibpDgCTn9cinq9x4aMbcBj9ZWu4"
+			]
+		}
+	},
+	"version": 1
+}

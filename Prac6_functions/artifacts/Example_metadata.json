@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "number3",
+						"type": "uint256"
+					}
+				],
+				"name": "getSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Prac6_functions/view_functions.sol": "Example"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Prac6_functions/view_functions.sol": {
+			"keccak256": "0xd17b3dd64ceab1c9289622279c68b624784bbad7905367bee697a52ce4d722ce",
+			"urls": [
+				"bzz-raw://aee2a68c00ce8e63caf964c44d72975fdd3924fcbac5417acf6d4da270af5f03",
+				"dweb:/ipfs/QmXFYx1xs6NNaqa8bhme8u9eEr8CX9UZUp7eoUWqpZJirv"
+			]
+		}
+	},
+	"version": 1
+}

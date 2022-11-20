@@ -7,14 +7,8 @@
 		"abi": [
 			{
 				"constant": true,
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr",
+				"inputs": [],
+				"name": "age",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -29,7 +23,22 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "count",
+				"name": "f2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getter",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,21 +48,6 @@
 				],
 				"payable": false,
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
-				"name": "loop",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"payable": false,
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -66,7 +60,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"prac4/loops/do_while.sol": "Demo"
+			"Prac6_functions/pure_functions.sol": "viewprogram"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -77,11 +71,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"prac4/loops/do_while.sol": {
-			"keccak256": "0x9f9562baa4af48aa0e99dcfb7a5185a15e5800f231d9bd334a66f6a5de6bff2a",
+		"Prac6_functions/pure_functions.sol": {
+			"keccak256": "0x6f5ab1d995cc5dc79244779d462cf6a4b333255b0c044e1364fcb5c4cf7934e0",
 			"urls": [
-				"bzz-raw://8bc43fd0ccb33c059fd22d6eb57f11548dbd339ac3ede21ac2593239e56550bb",
-				"dweb:/ipfs/QmdFmtRApb6FUvhJzgsiA2xRVALtENymQfvrk7KUBsqKvW"
+				"bzz-raw://5c1cb691bff1c1a520a48cffc14cca190f7a33b2078fd0999cf6453b1f7f658b",
+				"dweb:/ipfs/QmWoqV3anKyeKxMVDhsvF86sfgY1DHVNzgNdEZsw5zdEDH"
 			]
 		}
 	},

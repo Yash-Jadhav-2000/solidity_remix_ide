@@ -7,14 +7,8 @@
 		"abi": [
 			{
 				"constant": true,
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr",
+				"inputs": [],
+				"name": "f1",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -23,13 +17,13 @@
 					}
 				],
 				"payable": false,
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "count",
+				"name": "f4",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -38,22 +32,7 @@
 					}
 				],
 				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
-				"name": "loop",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"payable": false,
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -66,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"prac4/loops/do_while.sol": "Demo"
+			"Prac8/visibility.sol": "crypto"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -77,11 +56,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"prac4/loops/do_while.sol": {
-			"keccak256": "0x9f9562baa4af48aa0e99dcfb7a5185a15e5800f231d9bd334a66f6a5de6bff2a",
+		"Prac8/visibility.sol": {
+			"keccak256": "0x14e94c7c4859e963842c7e8dcbaec0ff5fd175672418fd2fd93a43dcc3255738",
 			"urls": [
-				"bzz-raw://8bc43fd0ccb33c059fd22d6eb57f11548dbd339ac3ede21ac2593239e56550bb",
-				"dweb:/ipfs/QmdFmtRApb6FUvhJzgsiA2xRVALtENymQfvrk7KUBsqKvW"
+				"bzz-raw://580bc43fc6f5c4ffb905a036308d94376066d935ebec48dcbc3d333a06512d76",
+				"dweb:/ipfs/QmNuqnzW12Mjaao4VEynBn65dqopdSFPJp7fGRNmtsXmsB"
 			]
 		}
 	},

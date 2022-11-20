@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "doWhileLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"prac4/loops/dowhile_pt.sol": "Example"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"prac4/loops/dowhile_pt.sol": {
+			"keccak256": "0x52037e461c906e006722a4230e7c08dd4832db3d3d3bc58cb2c81a77aa6d72c2",
+			"urls": [
+				"bzz-raw://fe91a4214b82ae994c50b29a91b0e97d0261fdb71923302763922e8453067ab5",
+				"dweb:/ipfs/QmZ7Xuq8iZYFsYzKTCgY8AuHjHKxGqVE36UT8qMRysnz73"
+			]
+		}
+	},
+	"version": 1
+}

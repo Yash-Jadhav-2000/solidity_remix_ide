@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newage",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Prac8/constructor.sol": "const"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Prac8/constructor.sol": {
+			"keccak256": "0x642bbc9716621ddde7a3f4d1d49d60f1b3624275f1e706e14312cbc8820ae50b",
+			"urls": [
+				"bzz-raw://c2fde20aeb6591f47765f653301bd4971b187827ab8729f9d7f50bdf85e8b34d",
+				"dweb:/ipfs/QmQewZc91ZmkCGbeEdwdGh4wWEWVezBwV2dRtZ8XNUxww4"
+			]
+		}
+	},
+	"version": 1
+}

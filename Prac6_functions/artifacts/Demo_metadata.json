@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "block_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "msgSender",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Prac6_functions/view_functions.sol": "Demo"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Prac6_functions/view_functions.sol": {
+			"keccak256": "0x4c65a1f4192db1f643e89e31c4ac2c67b9986326da5908df38011f52c554e921",
+			"urls": [
+				"bzz-raw://eae28a80bc6c1ed24d0734c498c3d3bb25b58ee8393acb2eceb060ffb6d9769f",
+				"dweb:/ipfs/QmZawubNGun16sKnVxjVuoo3PfhtM2zkbgp6zVJyuZq8cN"
+			]
+		}
+	},
+	"version": 1
+}

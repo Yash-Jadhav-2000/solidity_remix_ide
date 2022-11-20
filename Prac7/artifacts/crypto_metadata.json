@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "callKeccak256",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "result",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Prac7/crypto.sol": "crypto"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Prac7/crypto.sol": {
+			"keccak256": "0xd5fbbaba57b8964c57f14bf9eaeffa0a7a783166621fc606dc0bf827f0550d3b",
+			"urls": [
+				"bzz-raw://cc1b52def2f048587d009c8ff2717471cae1f52874d8fbec702744f636badf49",
+				"dweb:/ipfs/QmWwJUhcHt7f318cMM49c3A8VgifMLaXKEyToxtgDeTn3k"
+			]
+		}
+	},
+	"version": 1
+}

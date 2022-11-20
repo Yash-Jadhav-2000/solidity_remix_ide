@@ -7,29 +7,8 @@
 		"abi": [
 			{
 				"constant": true,
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": true,
 				"inputs": [],
-				"name": "count",
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -44,14 +23,17 @@
 			{
 				"constant": false,
 				"inputs": [],
-				"name": "loop",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
+				"name": "payether",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "sendEtherAccount",
+				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -66,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"prac4/loops/do_while.sol": "Demo"
+			"Prac6_functions/payable.sol": "pay"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -77,11 +59,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"prac4/loops/do_while.sol": {
-			"keccak256": "0x9f9562baa4af48aa0e99dcfb7a5185a15e5800f231d9bd334a66f6a5de6bff2a",
+		"Prac6_functions/payable.sol": {
+			"keccak256": "0x68a5de1aa49d388732496bb7de72725c8c8e230089afba881a5c1c9feac4d650",
 			"urls": [
-				"bzz-raw://8bc43fd0ccb33c059fd22d6eb57f11548dbd339ac3ede21ac2593239e56550bb",
-				"dweb:/ipfs/QmdFmtRApb6FUvhJzgsiA2xRVALtENymQfvrk7KUBsqKvW"
+				"bzz-raw://6bcb6b5f945dd8fff85ef58da6e3a00bc37e8c11993d6005ae24596d45bdf70e",
+				"dweb:/ipfs/QmcMNwhTKDShU5tcEfaR6j6rXnYcSxtS6PrmnN1GK18YgP"
 			]
 		}
 	},

@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newage",
+						"type": "uint256"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Prac6_functions/functions.sol": "functions"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Prac6_functions/functions.sol": {
+			"keccak256": "0x46b5527afed8e0390d747a62594f643458ad28cfdcd9614de426527903a9d278",
+			"urls": [
+				"bzz-raw://ae08cc8faaa60dbf8ca535535a3eb8fd90e519b970cfa70d5657e285af27a572",
+				"dweb:/ipfs/QmNqAY56AA1ahiRgr4ctwSkmBQBycK4Ytj5zxb7Fzgoctm"
+			]
+		}
+	},
+	"version": 1
+}

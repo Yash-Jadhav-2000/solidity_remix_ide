@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "loop",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"prac4/loops/forloop.sol": "Types"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"prac4/loops/forloop.sol": {
+			"keccak256": "0x9966825e6e9ad8d973ae8f1bb40314d5f557c34797c2ae02df2d5d3cd3277eb1",
+			"urls": [
+				"bzz-raw://5538a2ede81d972137c8e3392cf81a06a54e61e1aa887fd749a9e99df831f790",
+				"dweb:/ipfs/QmUPP6Lk9XmwzoZPkzoqCo9UJE9PtBcdSZzq4AtLfar9cb"
+			]
+		}
+	},
+	"version": 1
+}
